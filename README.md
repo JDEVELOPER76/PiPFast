@@ -15,10 +15,9 @@ Permite instalar, desinstalar, mostrar información y actualizar paquetes, adem�
   - Intérprete de Python real (aun si la app está compilada en `.exe`)
   - Versión de Python instalada
   - Entorno virtual activo o no  
-- 🎨 **Colores dinámicos** con `colorama` para resaltar errores, avisos y éxito.  
-- 📊 **Barra de progreso** durante las operaciones de pip.  
+- 🎨 **Colores dinámicos** con `colorama` para resaltar errores, avisos y éxito.    
 - 🪶 Compatible con entornos **Windows, Linux y macOS**.  
-- 💾 Se puede ejecutar como script `.py` o como `.exe` compilado (usando `cx_Freeze`, `PyInstaller` o `Nuitka`).
+- 💾 Se puede ejecutar como script `.py` o como `.exe` compilado (usando `PyInstaller`).
 
 ---
 
@@ -27,4 +26,4 @@ Permite instalar, desinstalar, mostrar información y actualizar paquetes, adem�
 - **Python 3.8 o superior**
 - Paquetes:
   ```bash
-  pip install colorama tqdm
+  pip install colorama
